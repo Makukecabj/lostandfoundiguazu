@@ -444,6 +444,7 @@ function render(c) {
     applyTheme(currentTheme);
 
     el('nav-link-about').textContent = t('nav_about');
+    console.log('nav-link-about:', el('nav-link-about'), 'text:', t('nav_about'));
     el('nav-link-amenities').textContent = t('nav_amenities');
     el('nav-link-gallery').textContent = t('nav_gallery');
     el('nav-link-pricing').textContent = t('nav_pricing');
