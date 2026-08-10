@@ -1,0 +1,351 @@
+{
+  "business": {
+    "name": "Hostel Lost & Found Iguazú",
+    "short_name": "Lost Found",
+    "tagline": "Hostel Lost & Found Iguazú - Posadas",
+    "description": "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost &...",
+    "category": "Hospedaje",
+    "followers": 1075
+  },
+  "hero": {
+    "video": "videos/city-video.mp4",
+    "poster": "fotos/foto-01.jpg",
+    "eyebrow": "Posadas",
+    "title_line1": "Vení a",
+    "title_em": "Lost Found",
+    "title_line2": "",
+    "subtitle": "Todo lo que buscás para viajar tranquilo por Posadas."
+  },
+  "location": {
+    "address": "",
+    "district": "",
+    "city": "Posadas",
+    "province": "Misiones",
+    "country": "Argentina",
+    "map_query": "Hostel Lost & Found Iguazú, Posadas",
+    "map_embed": "https://maps.google.com/maps?q=Jangadero+735,+Puerto+Iguaz%C3%BA,+Misiones&z=17&output=embed",
+    "description": "Posadas. Todo lo que querés conocer queda cerca.",
+    "video": "videos/city-video.mp4"
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/5491164106698",
+    "phone": "+5491164106698",
+    "email": ""
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/lostandfoundiguazu/",
+    "facebook": "",
+    "tiktok": ""
+  },
+  "about": {
+    "eyebrow": "Todo sobre nosotros",
+    "title": "Todo sobre Hostel Lost & Found Iguazú.",
+    "paragraphs": [
+      "Hostel Lost & Found Iguazú te espera en Posasdas con habitaciones limpias, pileta, parrilla, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona.",
+      "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost & Found Iguazu.\nEl antes y después de nuestra recepción, un espacio creado con mucho amor para recibirlos. Estamos listos para ofrecerles una..."
+    ],
+    "photos": [
+      {
+        "src": "fotos/foto-02.jpg",
+        "alt": "Interior del hostel"
+      },
+      {
+        "src": "fotos/foto-03.jpg",
+        "alt": "Espacios comunes"
+      }
+    ]
+  },
+  "trust_bar": [
+    "Hablamos con vos en el acto",
+    "Reservá sin intermediarios",
+    "Experiencia de viajero a viajero"
+  ],
+  "amenities": [
+    {
+      "key": "bed",
+      "title": "Tu cama te espera",
+      "description": "Descansá que mañana hay cosas por conocer.",
+      "icon": "bed"
+    },
+    {
+      "key": "pileta",
+      "title": "Pileta",
+      "description": "Pileta para relajarte y disfrutar del aire libre.",
+      "icon": "sun"
+    },
+    {
+      "key": "parrilla",
+      "title": "Parrilla",
+      "description": "Parrilla completa para preparar un asado.",
+      "icon": "grill"
+    },
+    {
+      "key": "aire",
+      "title": "Aire acondicionado",
+      "description": "Climatización para tu confort.",
+      "icon": "sun"
+    },
+    {
+      "key": "pin",
+      "title": "Cerca de todo",
+      "description": "La mejor ubicación para recorrer sin gastar de más.",
+      "icon": "pin"
+    }
+  ],
+  "gallery": {
+    "images": [
+      {
+        "src": "fotos/foto-01.jpg",
+        "alt": "Vista del alojamiento"
+      },
+      {
+        "src": "fotos/foto-02.jpg",
+        "alt": "Interior del hostel"
+      },
+      {
+        "src": "fotos/foto-03.jpg",
+        "alt": "Espacios comunes"
+      },
+      {
+        "src": "fotos/foto-04.jpg",
+        "alt": "Zona de descanso"
+      },
+      {
+        "src": "fotos/foto-05.jpg",
+        "alt": "Pileta y jardín"
+      },
+      {
+        "src": "fotos/foto-06.jpg",
+        "alt": "Cocina del hostel"
+      },
+      {
+        "src": "fotos/foto-07.jpg",
+        "alt": "Habitaciones"
+      },
+      {
+        "src": "fotos/foto-08.jpg",
+        "alt": "Terraza"
+      },
+      {
+        "src": "fotos/foto-09.jpg",
+        "alt": "Entrada principal"
+      },
+      {
+        "src": "fotos/foto-10.jpg",
+        "alt": "Áreas verdes"
+      },
+      {
+        "src": "fotos/foto-11.jpg",
+        "alt": "Comedor"
+      },
+      {
+        "src": "fotos/foto-12.jpg",
+        "alt": "Living común"
+      }
+    ],
+    "videos": []
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "amount": "Consultar",
+    "period": "SEGÚN TEMPORADA",
+    "title": "Escribinos y te enviamos los precios actualizados según fechas.",
+    "cta_text": "Consultar precios"
+  },
+  "faq": [
+    {
+      "question": "¿Hay toallas?",
+      "answer": "Consultanos, generalmente tenemos para prestar."
+    },
+    {
+      "question": "¿Se puede cancelar la reserva?",
+      "answer": "Somos flexibles, escribinos con tiempo y lo resolvemos."
+    },
+    {
+      "question": "¿Hay lugar para guardar equipaje?",
+      "answer": "Sí, podés dejar las valijas antes del check-in o después del check-out."
+    },
+    {
+      "question": "¿Hay pileta?",
+      "answer": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+    },
+    {
+      "question": "¿Cuánto queda para la playa/centro?",
+      "answer": "A pocas cuadras, caminando llegás en 5 minutos."
+    }
+  ],
+  "footer": {
+    "description": "Hostel Lost & Found Iguazú",
+    "copyright": "© 2026 Hostel Lost & Found Iguazú. Todos los derechos reservados.",
+    "made_by": "Sitio hecho por Aizly"
+  },
+  "i18n": {
+    "en": {
+      "business": {
+        "name": "Hostel Lost & Found Iguazú",
+        "short_name": "Lost Found",
+        "tagline": "Hostel Lost & Found Iguazú - Accommodation",
+        "description": "Hostel Lost & Found Iguazú offers everything you need for your stay in Posadas.",
+        "category": "Accommodation"
+      },
+      "hero": {
+        "video": "videos/city-video.mp4",
+        "poster": "fotos/foto-01.jpg",
+        "eyebrow": "",
+        "title_line1": "Visit",
+        "title_em": "Lost Found",
+        "title_line2": "",
+        "subtitle": "A laid-back hostel in Posadas, made for you."
+      },
+      "about": {
+        "eyebrow": "Who we are",
+        "title": "Hostel Lost & Found Iguazú, your base in Posadas.",
+        "paragraphs": [
+          "Hostel Lost & Found Iguazú is your base in Posadas. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy.",
+          "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost & Found Iguazu.\nEl antes y después de nuestra recepción, un espacio creado con mucho amor para recibirlos. Estamos listos para ofrecerles una..."
+        ],
+        "photos": [
+          {
+            "src": "fotos/foto-02.jpg",
+            "alt": "Interior del hostel"
+          },
+          {
+            "src": "fotos/foto-03.jpg",
+            "alt": "Espacios comunes"
+          }
+        ]
+      },
+      "location": {
+        "description": "Posadas. The best place to stay in the area."
+      },
+      "pricing": {
+        "eyebrow": "Prices",
+        "amount": "Ask us",
+        "period": "Varies by season",
+        "title": "Message us for updated prices based on your dates.",
+        "cta_text": "Check prices"
+      },
+      "faq": [
+        {
+          "question": "Is there a pool?",
+          "answer": "Yes! In summer it's the best spot to cool off after sightseeing."
+        },
+        {
+          "question": "Are towels provided?",
+          "answer": "Message us, we usually have towels available to lend."
+        },
+        {
+          "question": "Can I bring my pet?",
+          "answer": "Ask us, sometimes we can make it work. We don't say no right away."
+        },
+        {
+          "question": "How far is the beach/downtown?",
+          "answer": "Just a few blocks, about a 5-minute walk."
+        },
+        {
+          "question": "How do I book?",
+          "answer": "Send us a WhatsApp or email and we'll confirm right away. Easy as that."
+        }
+      ],
+      "trust_bar": [
+        "We reply the same day",
+        "Book direct, no commission",
+        "Personalized attention"
+      ],
+      "amenities": [
+        {
+          "title": "Comfortable rooms",
+          "description": "Everything you need to rest after a day of exploring.",
+          "icon": "bed"
+        },
+        {
+          "title": "Swimming pool",
+          "description": "Relax and enjoy the outdoors.",
+          "icon": "sun"
+        },
+        {
+          "title": "BBQ grill",
+          "description": "Full grill to cook an Argentine asado.",
+          "icon": "grill"
+        },
+        {
+          "title": "Air conditioning",
+          "description": "Stay cool in the summer heat.",
+          "icon": "sun"
+        },
+        {
+          "title": "Great location",
+          "description": "Steps away from everything you need.",
+          "icon": "pin"
+        }
+      ],
+      "footer": {
+        "description": "Hostel Lost & Found Iguazú",
+        "copyright": "© 2026 Hostel Lost & Found Iguazú. All rights reserved.",
+        "made_by": "Site by Aizly"
+      }
+    }
+  },
+  "schema_ld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LodgingBusiness",
+        "name": "Hostel Lost & Found Iguazú",
+        "description": "Hostel Lost & Found Iguazú: pileta, parrilla, WiFi y la mejor ubicación en Posadas.",
+        "url": "https://wa.me/543757406079?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadeGp5cYb5PoaPvwKFH18Gmcnjf1PtHSCnAC-jGz4b27FUN1t08j5sVyKBpug_aem_B_nFLVr58srgvTyFjYunlA",
+        "telephone": "+5491164106698",
+        "email": "",
+        "image": "https://scontent-eze1-1.cdninstagram.com/v/t51.2885-19/448871178_893238422831065_8217636833405224515_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MzMuQzMifQ%3D%3D&_nc_ohc=fXKscLb85QsQ7kNvwHJ4VBy&_nc_oc=AdqMXNLAhRc0uoyl22Hnq3Wjan_DVs3v6IvAVeWbmi_SNfeDm6PEBA0DcuDfhCP9h52KzA4qvTBOSAS97_4B-b3P&_nc_zt=24&_nc_ht=scontent-eze1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQF98ZgXk7XdolWHg2mXE_ZBhf6X1xW7fD9UMuVaIarM-Q&oe=6A7BDC23",
+        "sameAs": [
+          "https://www.instagram.com/lostandfoundiguazu/"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Hay toallas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Consultanos, generalmente tenemos para prestar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Se puede cancelar la reserva?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Somos flexibles, escribinos con tiempo y lo resolvemos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay lugar para guardar equipaje?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, podés dejar las valijas antes del check-in o después del check-out."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Hay pileta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto queda para la playa/centro?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A pocas cuadras, caminando llegás en 5 minutos."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
