@@ -202,7 +202,7 @@ window.__CONFIG = {
         "title": "Hostel Lost & Found Iguazú, your base in Puerto Iguazú.",
         "paragraphs": [
           "Hostel Lost & Found Iguazú is your base in Puerto Iguazú. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy.",
-          "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost & Found Iguazu.\nEl antes y después de nuestra recepción, un espacio creado con mucho amor para recibirlos. Estamos listos para ofrecerles una..."
+          "Hi 👋 \nWe are excited to share with you part of our new venture: Hostel Lost & Found Iguazu.\nThe before and after of our reception, a space created with lots of love to welcome you. We are ready to offer you a..."
         ],
         "photos": [
           {
