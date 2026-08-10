@@ -443,21 +443,21 @@ function render(c) {
 
     applyTheme(currentTheme);
 
-    el('nav-link-about').textContent = t('nav_about');
-    console.log('nav-link-about:', el('nav-link-about'), 'text:', t('nav_about'));
-    el('nav-link-amenities').textContent = t('nav_amenities');
-    el('nav-link-gallery').textContent = t('nav_gallery');
-    el('nav-link-pricing').textContent = t('nav_pricing');
-    el('nav-link-faq').textContent = t('nav_faq');
-    el('nav-link-location').textContent = t('nav_location');
+    const navLinkAbout = el('nav-link-about'); if (navLinkAbout) navLinkAbout.textContent = t('nav_about');
+    const navLinkAmenities = el('nav-link-amenities'); if (navLinkAmenities) navLinkAmenities.textContent = t('nav_amenities');
+    const navLinkGallery = el('nav-link-gallery'); if (navLinkGallery) navLinkGallery.textContent = t('nav_gallery');
+    const navLinkPricing = el('nav-link-pricing'); if (navLinkPricing) navLinkPricing.textContent = t('nav_pricing');
+    const navLinkFaq = el('nav-link-faq'); if (navLinkFaq) navLinkFaq.textContent = t('nav_faq');
+    const navLinkLocation = el('nav-link-location'); if (navLinkLocation) navLinkLocation.textContent = t('nav_location');
 
-    el('amenities-eyebrow').textContent = t('amenities_eyebrow');
-    el('amenities-title').textContent = t('amenities_title');
-    el('gallery-eyebrow').textContent = t('gallery_eyebrow');
-    el('faq-eyebrow').textContent = t('faq_eyebrow');
-    el('faq-title').textContent = t('faq_title');
+    const amenitiesEyebrow = el('amenities-eyebrow'); if (amenitiesEyebrow) amenitiesEyebrow.textContent = t('amenities_eyebrow');
+    const amenitiesTitle = el('amenities-title'); if (amenitiesTitle) amenitiesTitle.textContent = t('amenities_title');
+    const galleryEyebrow = el('gallery-eyebrow'); if (galleryEyebrow) galleryEyebrow.textContent = t('gallery_eyebrow');
+    const faqEyebrow = el('faq-eyebrow'); if (faqEyebrow) faqEyebrow.textContent = t('faq_eyebrow');
+    const faqTitle = el('faq-title'); if (faqTitle) faqTitle.textContent = t('faq_title');
 
-    el('lang-toggle').textContent = t('lang_btn');
+    const langToggle = el('lang-toggle'); if (langToggle) langToggle.textContent = t('lang_btn');
+
 
     const footerNav = el('foot-cols');
     if (footerNav) {
