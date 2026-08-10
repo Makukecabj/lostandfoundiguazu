@@ -323,7 +323,10 @@ function render(c) {
 
     el('gallery-title').textContent = `${t('gallery_title_prefix')}.`;
     const galleryEyebrow = el('gallery-eyebrow');
-    if (galleryEyebrow) galleryEyebrow.style.display = 'none';
+    if (galleryEyebrow) {
+        galleryEyebrow.textContent = t('gallery_eyebrow');
+        galleryEyebrow.style.display = 'none';
+    }
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
@@ -452,7 +455,6 @@ function render(c) {
 
     const amenitiesEyebrow = el('amenities-eyebrow'); if (amenitiesEyebrow) amenitiesEyebrow.textContent = t('amenities_eyebrow');
     const amenitiesTitle = el('amenities-title'); if (amenitiesTitle) amenitiesTitle.textContent = t('amenities_title');
-    const galleryEyebrow = el('gallery-eyebrow'); if (galleryEyebrow) galleryEyebrow.textContent = t('gallery_eyebrow');
     const faqEyebrow = el('faq-eyebrow'); if (faqEyebrow) faqEyebrow.textContent = t('faq_eyebrow');
     const faqTitle = el('faq-title'); if (faqTitle) faqTitle.textContent = t('faq_title');
 
