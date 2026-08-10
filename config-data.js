@@ -3,7 +3,7 @@ window.__CONFIG = {
     "name": "Hostel Lost & Found Iguazú",
     "short_name": "Lost Found",
     "tagline": "Hostel Lost & Found Iguazú - Puerto Iguazú",
-    "description": "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost &...",
+    "description": "Hostel Lost & Found Iguazú: tu mejor opción de alojamiento en Puerto Iguazú. Disfrutá de un hostel tranquilo con pileta, parrilla, cocina completa y WiFi gratis, ideal para viajeros que buscan confort cerca de las Cataratas del Iguazú.",
     "category": "Hospedaje",
     "followers": 1075
   },
@@ -41,8 +41,8 @@ window.__CONFIG = {
     "eyebrow": "Todo sobre nosotros",
     "title": "Todo sobre Hostel Lost & Found Iguazú.",
     "paragraphs": [
-      "Hostel Lost & Found Iguazú te espera en Puerto Iguazú con habitaciones limpias, pileta, parrilla, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona.",
-      "Hola 👋 \nNos emociona compartir con ustedes parte de nuestro nuevo emprendimiento: Hostel Lost & Found Iguazu.\nEl antes y después de nuestra recepción, un espacio creado con mucho amor para recibirlos. Estamos listos para ofrecerles una..."
+      "Hostel Lost & Found Iguazú te espera en Puerto Iguazú con habitaciones limpias y cómodas. Somos el alojamiento ideal para quienes buscan un lugar tranquilo para descansar después de recorrer las Cataratas del Iguazú y los puntos turísticos más importantes de la zona.",
+      "Nuestro espacio cuenta con pileta para refrescarse en verano, parrilla para disfrutar de un asado, cocina completa equipada y WiFi gratis de alta velocidad. Creamos este hostel pensando en la experiencia del viajero, para que te sientas como en casa mientras explorás la maravilla natural del mundo."
     ],
     "photos": [
       {
