@@ -251,7 +251,7 @@ function render(c) {
     }
 
     el('nav-logo').textContent = b.name || b.short_name || '';
-    el('splash-logo').textContent = b.short_name || b.name || '';
+    if (el('splash-logo')) el('splash-logo').textContent = b.short_name || b.name || '';
     el('foot-logo').textContent = b.name || b.short_name || '';
     el('nav-cta').href = waLink;
     el('nav-cta').textContent = t('nav_cta');
