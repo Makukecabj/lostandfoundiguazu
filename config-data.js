@@ -28,8 +28,8 @@ window.__CONFIG = {
     "video": "videos/city-video.mp4"
   },
   "contact": {
-    "whatsapp": "https://wa.me/5491164106698",
-    "phone": "+5491164106698",
+    "whatsapp": "https://wa.me/5493757406079",
+    "phone": "+5493757406079",
     "email": ""
   },
   "social": {
