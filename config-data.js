@@ -46,12 +46,12 @@ window.__CONFIG = {
     ],
     "photos": [
       {
-        "src": "fotos/fotos-web/espacios-compartidos/sala.jpeg",
-        "alt": "Sala común del hostel"
+        "src": "fotos/fotos-web/espacios-compartidos/picina.jpeg",
+        "alt": "Piscina del hostel"
       },
       {
-        "src": "fotos/fotos-web/espacios-compartidos/comedor.jpeg",
-        "alt": "Comedor del hostel"
+        "src": "fotos/fotos-web/espacios-compartidos/vistapicina.jpeg",
+        "alt": "Vista de la piscina"
       }
     ]
   },
