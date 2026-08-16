@@ -8,13 +8,13 @@ window.__CONFIG = {
     "followers": 1075
   },
   "hero": {
-    "video": "videos/city-video.mp4",
-    "poster": "fotos/foto-01.jpg",
+    "video": "fotos/fotos-web/home.mp4",
+    "poster": "fotos/fotos-web/espacios-compartidos/vistapicina.jpeg",
     "eyebrow": "Puerto Iguazú",
     "title_line1": "Vení a",
     "title_em": "Lost Found",
     "title_line2": "",
-     "subtitle": "Todo lo que buscás para viajar tranquilo por Puerto Iguazú."
+    "subtitle": "Todo lo que buscás para viajar tranquilo por Puerto Iguazú."
   },
   "location": {
     "address": "",
@@ -25,11 +25,11 @@ window.__CONFIG = {
     "map_query": "Hostel Lost & Found Iguazú, Puerto Iguazú",
     "map_embed": "https://maps.google.com/maps?q=Jangadero+735,+Puerto+Iguaz%C3%BA,+Misiones&z=17&output=embed",
     "description": "Puerto Iguazú. Todo lo que querés conocer queda cerca.",
-    "video": "videos/city-video.mp4"
+    "video": "fotos/fotos-web/home.mp4"
   },
   "contact": {
-    "whatsapp": "https://wa.me/5493757406079",
-    "phone": "+5493757406079",
+    "whatsapp": "https://wa.me/543757406079",
+    "phone": "+543757406079",
     "email": ""
   },
   "social": {
@@ -42,16 +42,16 @@ window.__CONFIG = {
     "title": "Todo sobre Hostel Lost & Found Iguazú.",
     "paragraphs": [
       "Hostel Lost & Found Iguazú te espera en Puerto Iguazú con habitaciones limpias y cómodas. Somos el alojamiento ideal para quienes buscan un lugar tranquilo para descansar después de recorrer las Cataratas del Iguazú y los puntos turísticos más importantes de la zona.",
-      "Nuestro espacio cuenta con pileta para refrescarse en verano, parrilla para disfrutar de un asado, cocina completa equipada y WiFi gratis de alta velocidad. Creamos este hostel pensando en la experiencia del viajero, para que te sientas como en casa mientras explorás la maravilla natural del mundo."
+      "Nuestro espacio cuenta con pileta para refrescarse en verano, parrilla para disfrutar de un asado, cocina completa equipada y WiFi gratis de alta velocidad. Creamos este hostel pensando en la experiencia del viajero."
     ],
     "photos": [
       {
-        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (1).jpeg",
-        "alt": "Interior del hostel"
+        "src": "fotos/fotos-web/espacios-compartidos/sala.jpeg",
+        "alt": "Sala común del hostel"
       },
       {
-        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (2).jpeg",
-        "alt": "Espacios comunes"
+        "src": "fotos/fotos-web/espacios-compartidos/comedor.jpeg",
+        "alt": "Comedor del hostel"
       }
     ]
   },
@@ -86,64 +86,91 @@ window.__CONFIG = {
       "icon": "sun"
     },
     {
-      "key": "pin",
-      "title": "Cerca de todo",
-      "description": "La mejor ubicación para recorrer sin gastar de más.",
-      "icon": "pin"
+      "key": "comunidad",
+      "title": "Espacios comunes",
+      "description": "Sala, patio y quincho para compartir.",
+      "icon": "group"
     }
   ],
   "gallery": {
-    "images": [
+    "categories": [
       {
-        "src": "fotos/foto-01.jpg",
-        "alt": "Vista del alojamiento"
+        "id": "compartidos",
+        "title": "Cuartos compartidos",
+        "image": "fotos/fotos-web/cuartos-compartidos/1.jpeg",
+        "images": [
+          { "src": "fotos/fotos-web/cuartos-compartidos/1.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/2.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/3.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/4.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/5.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/6.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/7.jpeg", "alt": "Cuarto compartido" },
+          { "src": "fotos/fotos-web/cuartos-compartidos/8.jpeg", "alt": "Cuarto compartido" }
+        ]
       },
       {
-        "src": "fotos/foto-02.jpg",
-        "alt": "Interior del hostel"
+        "id": "solo-mujeres",
+        "title": "Cuartos compartidos (solo mujeres)",
+        "image": "fotos/fotos-web/cuarto-solo-mujeres/A.jpeg",
+        "images": [
+          { "src": "fotos/fotos-web/cuarto-solo-mujeres/A.jpeg", "alt": "Cuarto solo mujeres" },
+          { "src": "fotos/fotos-web/cuarto-solo-mujeres/B.jpeg", "alt": "Cuarto solo mujeres" }
+        ]
       },
       {
-        "src": "fotos/foto-03.jpg",
-        "alt": "Espacios comunes"
+        "id": "privado",
+        "title": "Cuarto privado",
+        "image": "fotos/fotos-web/cuartos-privados/privada.jpeg",
+        "images": [
+          { "src": "fotos/fotos-web/cuartos-privados/privada.jpeg", "alt": "Cuarto privado" },
+          { "src": "fotos/fotos-web/cuartos-privados/privada1.jpeg", "alt": "Cuarto privado" },
+          { "src": "fotos/fotos-web/cuartos-privados/privada2.jpeg", "alt": "Cuarto privado" }
+        ]
       },
       {
-        "src": "fotos/foto-04.jpg",
-        "alt": "Zona de descanso"
+        "id": "espacios",
+        "title": "Espacios compartidos del hostel",
+        "image": "fotos/fotos-web/espacios-compartidos/picina.jpeg",
+        "images": [
+          { "src": "fotos/fotos-web/espacios-compartidos/cocina.jpeg", "alt": "Cocina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/cocina1.jpeg", "alt": "Cocina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/cocina2.jpeg", "alt": "Cocina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/comedor.jpeg", "alt": "Comedor" },
+          { "src": "fotos/fotos-web/espacios-compartidos/patio.jpeg", "alt": "Patio" },
+          { "src": "fotos/fotos-web/espacios-compartidos/patio2.jpeg", "alt": "Patio" },
+          { "src": "fotos/fotos-web/espacios-compartidos/picina.jpeg", "alt": "Piscina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/picina1.jpeg", "alt": "Piscina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/picina3.jpeg", "alt": "Piscina" },
+          { "src": "fotos/fotos-web/espacios-compartidos/sala.jpeg", "alt": "Sala común" },
+          { "src": "fotos/fotos-web/espacios-compartidos/vistapicina.jpeg", "alt": "Vista piscina" }
+        ]
       },
       {
-        "src": "fotos/foto-05.jpg",
-        "alt": "Pileta y jardín"
-      },
-      {
-        "src": "fotos/foto-06.jpg",
-        "alt": "Cocina del hostel"
-      },
-      {
-        "src": "fotos/foto-07.jpg",
-        "alt": "Habitaciones"
-      },
-      {
-        "src": "fotos/foto-08.jpg",
-        "alt": "Terraza"
-      },
-      {
-        "src": "fotos/foto-09.jpg",
-        "alt": "Entrada principal"
-      },
-      {
-        "src": "fotos/foto-10.jpg",
-        "alt": "Áreas verdes"
-      },
-      {
-        "src": "fotos/foto-11.jpg",
-        "alt": "Comedor"
-      },
-      {
-        "src": "fotos/foto-12.jpg",
-        "alt": "Living común"
+        "id": "huespedes",
+        "title": "Huéspedes felices",
+        "image": "fotos/fotos-web/huespedes-felices/huespedes.jpeg",
+        "images": [
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes.jpeg", "alt": "Huéspedes felices" },
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes1.jpeg", "alt": "Huéspedes felices" },
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes2.jpeg", "alt": "Huéspedes felices" },
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes3.jpeg", "alt": "Huéspedes felices" },
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes4.jpeg", "alt": "Huéspedes felices" },
+          { "src": "fotos/fotos-web/huespedes-felices/huespedes5.jpeg", "alt": "Huéspedes felices" }
+        ],
+        "videos": [
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121551.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121553.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121558.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121601.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121602.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121603.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121614.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121617.mp4", "alt": "Video de huéspedes" },
+          { "src": "fotos/fotos-web/huespedes-felices/video-20260816121620.mp4", "alt": "Video de huéspedes" }
+        ]
       }
-    ],
-    "videos": []
+    ]
   },
   "pricing": {
     "eyebrow": "Precios",
@@ -159,7 +186,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Se puede cancelar la reserva?",
-      "answer": "Somos flexibles, escribinos con tiempo y lo resolvemos."
+      "answer": "Somos flexibles, escribimos con tiempo y lo resolvemos."
     },
     {
       "question": "¿Hay lugar para guardar equipaje?",
@@ -171,7 +198,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Cuánto queda para la playa/centro?",
-      "answer": "A pocas cuadras, caminando llegás en 5 minutos."
+      "answer": "A pocas la cuadras, caminando llegás en 5 munos."
     }
   ],
   "footer": {
@@ -189,29 +216,30 @@ window.__CONFIG = {
         "category": "Accommodation"
       },
       "hero": {
-        "video": "videos/city-video.mp4",
-        "poster": "fotos/foto-01.jpg",
+        "video": "fotos/fotos-web/home.mp4",
+        "poster": "fotos/fotos-web/espacios-compartidos/vistapicina.jpeg",
         "eyebrow": "",
         "title_line1": "Visit",
         "title_em": "Lost Found",
         "title_line2": "",
-        "subtitle": "A laid-back hostel in Puerto Iguazú, made for you."
+        "subtitle": "A laid-back hostel in Puerto Iguazú, made for you.",
+        "gallery_title": "Explore"
       },
       "about": {
         "eyebrow": "Who we are",
         "title": "Hostel Lost & Found Iguazú, your base in Puerto Iguazú.",
         "paragraphs": [
           "Hostel Lost & Found Iguazú is your base in Puerto Iguazú. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy.",
-          "Hi 👋 \nWe are excited to share with you part of our new venture: Hostel Lost & Found Iguazu.\nThe before and after of our reception, a space created with lots of love to welcome you. We are ready to offer you a..."
+          "Hi 👋 \nWe are excited to share with you part of our new venture: Hostel Lost & Found Iguazu."
         ],
         "photos": [
           {
-            "src": "fotos/foto-02.jpg",
-            "alt": "Interior del hostel"
+            "src": "fotos/fotos-web/espacios-compartidos/sala.jpeg",
+            "alt": "Common room"
           },
           {
-            "src": "fotos/foto-03.jpg",
-            "alt": "Espacios comunes"
+            "src": "fotos/fotos-web/espacios-compartidos/comedor.jpeg",
+            "alt": "Dining area"
           }
         ]
       },
@@ -228,23 +256,19 @@ window.__CONFIG = {
       "faq": [
         {
           "question": "Is there a pool?",
-          "answer": "Yes! In summer it's the best spot to cool off after sightseeing."
+          "answer": "Yes! In summer it's the best spot to cool off."
         },
         {
           "question": "Are towels provided?",
-          "answer": "Message us, we usually have towels available to lend."
+          "answer": "Message us, we usually have towels to lend."
         },
         {
-          "question": "Can I bring my pet?",
-          "answer": "Ask us, sometimes we can make it work. We don't say no right away."
+          "question": "Is there storage for luggage?",
+          "answer": "Yes, you can leave your bags before check-in or after check-out."
         },
         {
-          "question": "How far is the beach/downtown?",
-          "answer": "Just a few blocks, about a 5-minute walk."
-        },
-        {
-          "question": "How do I book?",
-          "answer": "Send us a WhatsApp or email and we'll confirm right away. Easy as that."
+          "question": "Can I cancel my reservation?",
+          "answer": "Yes, we're flexible - message us in time."
         }
       ],
       "trust_bar": [
@@ -254,28 +278,28 @@ window.__CONFIG = {
       ],
       "amenities": [
         {
-          "title": "Comfortable rooms",
-          "description": "Everything you need to rest after a day of exploring.",
+          "title": "Comfortable beds",
+          "description": "Rest well for tomorrow's adventures.",
           "icon": "bed"
         },
         {
-          "title": "Swimming pool",
+          "title": "Pool",
           "description": "Relax and enjoy the outdoors.",
           "icon": "sun"
         },
         {
           "title": "BBQ grill",
-          "description": "Full grill to cook an Argentine asado.",
+          "description": "Full grill for an Argentine asado.",
           "icon": "grill"
         },
         {
           "title": "Air conditioning",
-          "description": "Stay cool in the summer heat.",
+          "description": "Stay cool in summer.",
           "icon": "sun"
         },
         {
           "title": "Great location",
-          "description": "Steps away from everything you need.",
+          "description": "Everything close by.",
           "icon": "pin"
         }
       ],
@@ -292,11 +316,10 @@ window.__CONFIG = {
       {
         "@type": "LodgingBusiness",
         "name": "Hostel Lost & Found Iguazú",
-        "description": "Hostel Lost & Found Iguazú: pileta, parrilla, WiFi y la mejor ubicación en Puerto Iguazú.",
-        "url": "https://wa.me/543757406079?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAadeGp5cYb5PoaPvwKFH18Gmcnjf1PtHSCnAC-jGz4b27FUN1t08j5sVyKBpug_aem_B_nFLVr58srgvTyFjYunlA",
-        "telephone": "+5491164106698",
+        "description": "Hostel in Puerto Iguazú with pool, BBQ, WiFi and the best location.",
+        "url": "https://wa.me/543757406079",
+        "telephone": "+5493757406079",
         "email": "",
-        "image": "https://scontent-eze1-1.cdninstagram.com/v/t51.2885-19/448871178_893238422831065_8217636833405224515_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy40MzMuQzMifQ%3D%3D&_nc_ohc=fXKscLb85QsQ7kNvwHJ4VBy&_nc_oc=AdqMXNLAhRc0uoyl22Hnq3Wjan_DVs3v6IvAVeWbmi_SNfeDm6PEBA0DcuDfhCP9h52KzA4qvTBOSAS97_4B-b3P&_nc_zt=24&_nc_ht=scontent-eze1-1.cdninstagram.com&_nc_ss=7b6a8&oh=00_AQF98ZgXk7XdolWHg2mXE_ZBhf6X1xW7fD9UMuVaIarM-Q&oe=6A7BDC23",
         "sameAs": [
           "https://www.instagram.com/lostandfoundiguazu/"
         ]
@@ -309,39 +332,7 @@ window.__CONFIG = {
             "name": "¿Hay toallas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Consultanos, generalmente tenemos para prestar."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Se puede cancelar la reserva?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Somos flexibles, escribinos con tiempo y lo resolvemos."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Hay lugar para guardar equipaje?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, podés dejar las valijas antes del check-in o después del check-out."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Hay pileta?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "¿Cuánto queda para la playa/centro?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A pocas cuadras, caminando llegás en 5 minutos."
+              "text": "Consultemos, generalmente tenemos."
             }
           }
         ]

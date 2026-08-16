@@ -327,21 +327,125 @@ function render(c) {
         galleryEyebrow.textContent = t('gallery_eyebrow');
         galleryEyebrow.style.display = 'none';
     }
-    let galleryHtml = '';
-    lbItems = [];
-    (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(img.alt || '')}</span></div></div>`;
-        lbItems.push({ type: 'image', src: img.src, alt: img.alt || '' });
-    });
-    // Videos removed from gallery - hero section uses the video background
-    el('gallery-grid').innerHTML = galleryHtml;
 
-    setTimeout(() => {
-        document.querySelectorAll('.gallery-item').forEach((item, i) => {
+    // Build gallery categories
+    const cats = g.categories || [];
+    const catsContainer = el('gallery-cats');
+    const tabsContainer = el('gallery-tabs');
+    const gridContainer = el('gallery-grid');
+
+    // Reset
+    lbItems = [];
+    window._activeCat = null;
+    window._galleryCats = cats;
+
+    if (catsContainer) {
+        if (cats.length) {
+            catsContainer.style.display = '';
+            catsContainer.innerHTML = cats.map((cat, ci) => `
+                <div class="gallery-cat reveal" data-cat-index="${ci}">
+                    <img src="${escapeHtml(cat.image)}" alt="${escapeHtml(cat.title)}" loading="lazy">
+                    <div class="cat-label">
+                        ${escapeHtml(cat.title)}
+                        <div class="cat-count">${(cat.images || []).length + (cat.videos || []).length} fotos</div>
+                    </div>
+                </div>
+            `).join('');
+        } else {
+            catsContainer.style.display = 'none';
+        }
+    }
+
+    // Tabs
+    if (tabsContainer) {
+        if (cats.length) {
+            tabsContainer.style.display = '';
+            tabsContainer.innerHTML = '<button class="gallery-tab active" data-cat="all">Ver todas</button>' + cats.map((cat, ci) => `
+                <button class="gallery-tab" data-cat="${ci}">${escapeHtml(cat.title)}</button>
+            `).join('');
+        } else {
+            tabsContainer.style.display = 'none';
+        }
+    }
+
+    function renderGalleryItems(catIdx) {
+        let items = [];
+        if (catIdx === null || catIdx === undefined || catIdx === 'all') {
+            cats.forEach(c => {
+                (c.images || []).forEach(img => items.push({ type: 'image', src: img.src, alt: img.alt || '' }));
+                (c.videos || []).forEach(v => items.push({ type: 'video', src: v.src, alt: v.alt || '' }));
+            });
+        } else {
+            const cat = cats[catIdx];
+            if (cat) {
+                (cat.images || []).forEach(img => items.push({ type: 'image', src: img.src, alt: img.alt || '' }));
+                (cat.videos || []).forEach(v => items.push({ type: 'video', src: v.src, alt: v.alt || '' }));
+            }
+        }
+        lbItems = items;
+        let html = '';
+        items.forEach(item => {
+            if (item.type === 'video') {
+                html += `<div class="gallery-item reveal"><video src="${escapeHtml(item.src)}" muted loop playsinline preload="none"></video><div class="gallery-overlay"><span>${escapeHtml(item.alt || '')}</span></div></div>`;
+            } else {
+                html += `<div class="gallery-item reveal"><img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(item.alt || '')}</span></div></div>`;
+            }
+        });
+        gridContainer.innerHTML = html;
+
+        gridContainer.querySelectorAll('.gallery-item').forEach((item, i) => {
             item.style.cursor = 'pointer';
             item.addEventListener('click', () => openLightbox(i));
         });
-    }, 100);
+
+        // Reveal observer
+        if (window._galleryRevealObserver) window._galleryRevealObserver.disconnect();
+        window._galleryRevealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+        }, { threshold: 0.15 });
+        gridContainer.querySelectorAll('.reveal').forEach(el => window._galleryRevealObserver.observe(el));
+    }
+
+    // Bind events
+    if (catsContainer) {
+        catsContainer.querySelectorAll('.gallery-cat').forEach(card => {
+            card.addEventListener('click', () => {
+                const ci = card.dataset.catIndex;
+                catsContainer.querySelectorAll('.gallery-cat').forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+                tabsContainer.querySelectorAll('.gallery-tab').forEach(t => t.classList.remove('active'));
+                tabsContainer.querySelectorAll('.gallery-tab[data-cat]').forEach(t => {
+                    if (t.dataset.cat === ci) t.classList.add('active');
+                });
+                // hide cats, show tabs
+                catsContainer.style.display = 'none';
+                tabsContainer.style.display = '';
+                renderGalleryItems(ci);
+            });
+        });
+    }
+
+    if (tabsContainer) {
+        tabsContainer.querySelectorAll('.gallery-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabsContainer.querySelectorAll('.gallery-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                const cat = tab.dataset.cat;
+                if (cat === 'all') {
+                    catsContainer.style.display = '';
+                    tabsContainer.style.display = 'none';
+                    renderGalleryItems('all');
+                } else {
+                    catsContainer.style.display = 'none';
+                    renderGalleryItems(parseInt(cat));
+                }
+            });
+        });
+    }
+
+    // Initial render: show categories grid always (no gallery items until click)
+    gridContainer.innerHTML = '';
+    renderGalleryItems('all');
 
     el('pricing-amount').textContent = pr.amount || 'Consultar';
     el('pricing-period').textContent = pr.period || '';
