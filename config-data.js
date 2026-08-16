@@ -46,11 +46,11 @@ window.__CONFIG = {
     ],
     "photos": [
       {
-        "src": "fotos/foto-02.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (1).jpeg",
         "alt": "Interior del hostel"
       },
       {
-        "src": "fotos/foto-03.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (2).jpeg",
         "alt": "Espacios comunes"
       }
     ]

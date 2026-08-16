@@ -95,51 +95,51 @@
   "gallery": {
     "images": [
       {
-        "src": "fotos/foto-01.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23.jpeg",
         "alt": "Vista del alojamiento"
       },
       {
-        "src": "fotos/foto-02.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (1).jpeg",
         "alt": "Interior del hostel"
       },
       {
-        "src": "fotos/foto-03.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (2).jpeg",
         "alt": "Espacios comunes"
       },
       {
-        "src": "fotos/foto-04.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (3).jpeg",
         "alt": "Zona de descanso"
       },
       {
-        "src": "fotos/foto-05.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (4).jpeg",
         "alt": "Pileta y jardín"
       },
       {
-        "src": "fotos/foto-06.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (5).jpeg",
         "alt": "Cocina del hostel"
       },
       {
-        "src": "fotos/foto-07.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (6).jpeg",
         "alt": "Habitaciones"
       },
       {
-        "src": "fotos/foto-08.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (7).jpeg",
         "alt": "Terraza"
       },
       {
-        "src": "fotos/foto-09.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (8).jpeg",
         "alt": "Entrada principal"
       },
       {
-        "src": "fotos/foto-10.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (9).jpeg",
         "alt": "Áreas verdes"
       },
       {
-        "src": "fotos/foto-11.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23 (10).jpeg",
         "alt": "Comedor"
       },
       {
-        "src": "fotos/foto-12.jpg",
+        "src": "fotos-web/WhatsApp Image 2026-08-16 at 12.02.23.jpeg",
         "alt": "Living común"
       }
     ],
@@ -148,7 +148,7 @@
   "pricing": {
     "eyebrow": "Precios",
     "amount": "Consultar",
-    "period": "SEGÚN TEMPORADA",
+    "period": "SEGÚN TEMPORAL",
     "title": "Escribinos y te enviamos los precios actualizados según fechas.",
     "cta_text": "Consultar precios"
   },
