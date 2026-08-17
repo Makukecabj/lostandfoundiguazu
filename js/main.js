@@ -176,6 +176,23 @@ function closeLightbox() {
     document.body.style.overflow = '';
 }
 
+window.toggleTestimonial = (index, fullText) => {
+    const elText = document.getElementById(`test-text-${index}`);
+    const elBtn = document.getElementById(`test-btn-${index}`);
+    const isExpanded = elText.getAttribute('data-expanded') === 'true';
+
+    if (isExpanded) {
+        const text = fullText.substring(0, 200) + '...';
+        elText.innerHTML = `"${escapeHtml(text)}"`;
+        elBtn.textContent = currentLang === 'en' ? 'Read more' : 'Ver más';
+        elText.setAttribute('data-expanded', 'false');
+    } else {
+        elText.innerHTML = `"${escapeHtml(fullText)}"`;
+        elBtn.textContent = currentLang === 'en' ? 'Read less' : 'Ver menos';
+        elText.setAttribute('data-expanded', 'true');
+    }
+};
+
 function updateLightbox() {
     const item = lbItems[lbIndex];
     const content = el('lb-content');
@@ -477,13 +494,23 @@ function render(c) {
         `<div class="faq-item"><button class="faq-q"><span>${escapeHtml(f.question)}</span><span class="plus">+</span></button><div class="faq-a"><p>${escapeHtml(f.answer)}</p></div></div>`
     ).join('');
 
-    const testimonials = (lc.testimonials || []).map(t => `
-      <div class="testimonial-card">
-        <div class="stars">${'★'.repeat(t.rating || 5)}${'☆'.repeat(5 - (t.rating || 5))}</div>
-        <div class="quote">"${escapeHtml(t.text || t.quote || '')}"</div>
-        <div class="author">— ${escapeHtml(t.author || '')}</div>
-      </div>
-    `).join('');
+    const testimonials = (lc.testimonials || []).map((t, index) => {
+        const text = (typeof t.text === 'string' ? t.text : (t.text[currentLang] || t.text.es)) || '';
+        const isLong = text.length > 200;
+        const truncated = isLong ? text.substring(0, 200) + '...' : text;
+        const btnText = currentLang === 'en' ? 'Read more' : 'Ver más';
+
+        return `
+          <div class="testimonial-card">
+            <div class="stars">${'★'.repeat(t.rating || 5)}${'☆'.repeat(5 - (t.rating || 5))}</div>
+            <div class="quote" id="test-text-${index}" data-expanded="false">"${escapeHtml(truncated)}"</div>
+            ${isLong ? `
+                <button id="test-btn-${index}" onclick="toggleTestimonial(${index}, '${text.replace(/'/g, "\\'")}')" style="background:none;border:none;color:var(--gold);cursor:pointer;font-weight:600;font-size:0.85rem;margin-top:5px;padding:0;">${btnText}</button>
+            ` : ''}
+            <div class="author">— ${escapeHtml(t.author || '')}</div>
+          </div>
+        `;
+    }).join('');
     const testimonialsSection = document.getElementById('testimonios');
     if (testimonials && lc.testimonials && lc.testimonials.length) {
         el('testimonials-grid').innerHTML = testimonials;
