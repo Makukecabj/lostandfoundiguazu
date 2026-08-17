@@ -172,6 +172,43 @@ window.__CONFIG = {
       }
     ]
   },
+  "testimonials": [
+    {
+      "author": "Xin L",
+      "text": "Si buscas un lugar agradable y económico para explorar Puerto Iguazú, sin duda alójate aquí. Darío fue muy atento de principio a fin.",
+      "rating": 5
+    },
+    {
+      "author": "Ben Quintana",
+      "text": "Darío es muy atento. Este hostal está alejado del bullicio. Sin duda, recomiendo alojarse aquí a cualquiera que esté de paso.",
+      "rating": 5
+    },
+    {
+      "author": "Atalanta Royle",
+      "text": "¡El precio es excelente considerando todo: desayuno, aire acondicionado y piscina incluidos! Gracias, Darío.",
+      "rating": 4
+    },
+    {
+      "author": "Eden Cairnie",
+      "text": "¡Tuvimos la mejor estadía! El lugar tiene una relación calidad-precio increíble: habitaciones acogedoras, áreas comunes y piscina.",
+      "rating": 5
+    },
+    {
+      "author": "Liam Dy",
+      "text": "Un hostal excelente. Muy limpio, tranquilo y con un ambiente agradable. Perfecto para quienes buscan un hostal tranquilo y relajado.",
+      "rating": 5
+    },
+    {
+      "author": "Dominic Boggiano",
+      "text": "Excelente hostal en Iguazú, perfecto para relajarse antes o después de visitar las cataratas. Dario fue un anfitrión estupendo.",
+      "rating": 5
+    },
+    {
+      "author": "Abigail Bryce",
+      "text": "Tuvimos una estancia estupenda. Darío fue un anfitrión fantástico y siempre estuvo disponible para responder a todas nuestras preguntas.",
+      "rating": 5
+    }
+  ],
   "pricing": {
     "eyebrow": "Precios",
     "amount": "Consultar",
