@@ -186,7 +186,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Se puede cancelar la reserva?",
-      "answer": "Somos flexibles, escribimos con tiempo y lo resolvemos."
+      "answer": "Somos flexibles, escribinos con tiempo y lo resolvemos."
     },
     {
       "question": "¿Hay lugar para guardar equipaje?",
@@ -198,7 +198,7 @@ window.__CONFIG = {
     },
     {
       "question": "¿Cuánto queda para la playa/centro?",
-      "answer": "A pocas la cuadras, caminando llegás en 5 munos."
+      "answer": "A pocas cuadras, caminando llegás en 5 minutos."
     }
   ],
   "footer": {
