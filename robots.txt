@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lostandfoundiguazu.vercel.app/sitemap.xml
+Sitemap: https://lostandfoundiguazu.com.ar/sitemap.xml

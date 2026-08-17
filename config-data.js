@@ -317,7 +317,7 @@ window.__CONFIG = {
         "@type": "LodgingBusiness",
         "name": "Hostel Lost & Found Iguazú",
         "description": "Hostel in Puerto Iguazú with pool, BBQ, WiFi and the best location.",
-        "url": "https://wa.me/543757406079",
+        "url": "https://lostandfoundiguazu.com.ar/",
         "telephone": "+5493757406079",
         "email": "",
         "sameAs": [
