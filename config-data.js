@@ -255,7 +255,7 @@ window.__CONFIG = {
       "answer": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
     },
     {
-      "question": "¿Cuánto queda para la playa/centro?",
+      "question": "¿Cuánto queda para el centro?",
       "answer": "A pocas cuadras, caminando llegás en 5 minutos."
     }
   ],
