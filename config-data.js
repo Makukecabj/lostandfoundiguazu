@@ -11,10 +11,10 @@ window.__CONFIG = {
     "video": "fotos/fotos-web/home.mp4",
     "poster": "fotos/fotos-web/espacios-compartidos/vistapicina.jpeg",
     "eyebrow": "Puerto Iguazú",
-    "title_line1": "Vení a",
-    "title_em": "Lost Found",
+    "title_line1": "Sentite en casa",
+    "title_em": "mientras descubrís Iguazú",
     "title_line2": "",
-    "subtitle": "Todo lo que buscás para viajar tranquilo por Puerto Iguazú."
+    "subtitle": "Habitaciones compartidas y privadas, pileta, desayuno y espacios para conectar con viajeros de todo el mundo."
   },
   "location": {
     "address": "",
@@ -41,8 +41,10 @@ window.__CONFIG = {
     "eyebrow": "Todo sobre nosotros",
     "title": "Todo sobre Hostel Lost & Found Iguazú.",
     "paragraphs": [
-      "Hostel Lost & Found Iguazú te espera en Puerto Iguazú con habitaciones limpias y cómodas. Somos el alojamiento ideal para quienes buscan un lugar tranquilo para descansar después de recorrer las Cataratas del Iguazú y los puntos turísticos más importantes de la zona.",
-      "Nuestro espacio cuenta con pileta para refrescarse en verano, parrilla para disfrutar de un asado, cocina completa equipada y WiFi gratis de alta velocidad. Creamos este hostel pensando en la experiencia del viajero."
+      "Somos una familia viajera que decidió transformar su casa en un refugio para viajeros. Así nació Hostel Lost & Found Iguazú: de nuestro amor por los caminos, las historias compartidas y esos encuentros inesperados que hacen que cada viaje sea inolvidable.",
+      "Queremos que esta sea tu casa en Puerto Iguazú: un espacio cálido, tranquilo e inclusivo, donde puedas descansar después de descubrir las Cataratas, conocer personas de distintos lugares y sentirte parte del lugar.",
+      "Contamos con habitaciones cómodas, AC, pileta, parrilla, cocina equipada, espacios comunes y WiFi gratuito. Pero lo más importante no está solamente en nuestras instalaciones, sino en la experiencia que queremos compartir con vos.",
+      "Porque hay viajes en los que uno se pierde un poco… para volver a encontrarse."
     ],
     "photos": [
       {
@@ -232,10 +234,10 @@ window.__CONFIG = {
   ],
   "pricing": {
     "eyebrow": "Precios",
-    "amount": "Consultar",
-    "period": "SEGÚN TEMPORADA",
-    "title": "Escribinos y te enviamos los precios actualizados según fechas.",
-    "cta_text": "Consultar precios"
+    "amount": "Consultanos",
+    "period": "SEGÚN FECHA",
+    "title": "Tarifas según fecha y disponibilidad. Consultanos por WhatsApp para recibir la mejor tarifa directa, sin intermediarios.",
+    "cta_text": "Consultar por WhatsApp"
   },
   "faq": [
     {
@@ -255,8 +257,24 @@ window.__CONFIG = {
       "answer": "Sí, hay pileta. En verano es el mejor lugar para refrescarte."
     },
     {
-      "question": "¿Cuánto queda para el centro?",
-      "answer": "A pocas cuadras, caminando llegás en 5 minutos."
+      "question": "¿A qué distancia estamos del centro, Hito Tres Fronteras y las Cataratas?",
+      "answer": "Estamos a pocas cuadras del centro (5 min caminando). El Hito Tres Fronteras está muy cerca, y la parada de bus a las Cataratas se encuentra a 3 cuadras."
+    },
+    {
+      "question": "¿Qué comodidades tienen las habitaciones?",
+      "answer": "Todas nuestras habitaciones cuentan con aire acondicionado, lockers o espacio para pertenencias, acceso a baños compartidos y desayuno incluido."
+    },
+    {
+      "question": "¿Qué servicios adicionales ofrece el hostel?",
+      "answer": "Contamos con cocina equipada, WiFi gratuito, pileta, guardado de equipaje, y asesoramiento sobre traslados y excursiones."
+    },
+    {
+      "question": "¿Cuáles son los horarios de check-in y check-out?",
+      "answer": "Consultanos al momento de reservar para coordinar tu llegada y salida."
+    },
+    {
+      "question": "¿Cómo puedo realizar el pago?",
+      "answer": "Aceptamos diferentes formas de pago. Consultanos por WhatsApp para más detalles."
     }
   ],
   "footer": {
@@ -287,8 +305,10 @@ window.__CONFIG = {
         "eyebrow": "Who we are",
         "title": "Hostel Lost & Found Iguazú, your base in Puerto Iguazú.",
         "paragraphs": [
-          "Hostel Lost & Found Iguazú is your base in Puerto Iguazú. Pool, BBQ, WiFi, kitchen and an ideal location to explore everything. We're a family hostel with all the vibes you need to travel easy.",
-          "Hi 👋 \nWe are excited to share with you part of our new venture: Hostel Lost & Found Iguazu."
+          "We are a family of travelers who decided to turn our home into a welcoming haven for fellow travelers. That is how Hostel Lost & Found Iguazú was born: from our love of travel, shared stories, and the unexpected connections that make every journey unforgettable.",
+          "More than just a place to sleep, we want this to be your home in Puerto Iguazú—a warm, peaceful, and inclusive space where you can relax after exploring the Iguazú Falls, enjoy a traditional Argentine barbecue, meet people from around the world, and feel welcome from the moment you arrive.",
+          "Our hostel offers comfortable rooms, a swimming pool, a barbecue area, a fully equipped kitchen, inviting common spaces, and free Wi-Fi. But what truly makes Lost & Found special goes beyond its facilities: it is the experience we want to share with you.",
+          "Because sometimes, you need to get a little lost… to find yourself again."
         ],
         "photos": [
           {
@@ -306,9 +326,9 @@ window.__CONFIG = {
       },
       "pricing": {
         "eyebrow": "Prices",
-        "amount": "Ask us",
-        "period": "Varies by season",
-        "title": "Message us for updated prices based on your dates.",
+        "amount": "Contact us",
+        "period": "By date",
+        "title": "Rates based on date and availability. Message us on WhatsApp for the best direct rate, no middlemen.",
         "cta_text": "Check prices"
       },
       "faq": [
@@ -387,11 +407,12 @@ window.__CONFIG = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "¿Hay toallas?",
+            "name": "¿A qué distancia estamos del centro, Hito Tres Fronteras y las Cataratas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Consultemos, generalmente tenemos."
+              "text": "Estamos a pocas cuadras del centro. El Hito Tres Fronteras está muy cerca, y la parada de bus a las Cataratas se encuentra a 3 cuadras."
             }
+          }
           }
         ]
       }
