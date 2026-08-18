@@ -413,7 +413,6 @@ window.__CONFIG = {
               "text": "Estamos a pocas cuadras del centro. El Hito Tres Fronteras está muy cerca, y la parada de bus a las Cataratas se encuentra a 3 cuadras."
             }
           }
-          }
         ]
       }
     ]
