@@ -401,16 +401,9 @@ function render(c) {
         }
         lbItems = items;
         let html = '';
-        // Determine a poster image for videos in this category
-        let posterSrc = '';
-        if (catIdx !== 'all' && cats[catIdx] && cats[catIdx].images && cats[catIdx].images[0]) {
-            posterSrc = cats[catIdx].images[0].src;
-        } else if (catIdx === 'all' && cats[0] && cats[0].images && cats[0].images[0]) {
-            posterSrc = cats[0].images[0].src;
-        }
         items.forEach(item => {
             if (item.type === 'video') {
-                html += `<div class="gallery-item reveal video-item"><video src="${escapeHtml(item.src)}" muted loop playsinline preload="metadata"${posterSrc ? ` poster="${escapeHtml(posterSrc)}"` : ''}></video><div class="gallery-overlay"><span>${escapeHtml(item.alt || '')}</span></div><div class="video-play-badge">▶</div></div>`;
+                html += `<div class="gallery-item reveal video-item"><video src="${escapeHtml(item.src)}" muted loop playsinline preload="metadata"></video><div class="gallery-overlay"><span>${escapeHtml(item.alt || '')}</span></div><div class="video-play-badge">▶</div></div>`;
             } else {
                 html += `<div class="gallery-item reveal"><img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(item.alt || '')}</span></div></div>`;
             }
