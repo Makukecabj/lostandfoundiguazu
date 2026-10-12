@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lostandfoundiguazu.com.ar/sitemap.xml
+Sitemap: https://www.lostandfoundiguazu.com.ar/sitemap.xml
